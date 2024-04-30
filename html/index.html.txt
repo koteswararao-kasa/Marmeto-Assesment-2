@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marmeto Assignment L2</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/03f5ac2067.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="main-container">
+        <div class="images-container">
+            <img id="product-image" alt="product_image" />
+            <div id="thumbnail-container">
+
+            </div>
+        </div>
+        <div class="marmeto-container">
+            <p id="vendor"></p>
+            <h1 id="title"></h1>
+            <hr id="horizontal-line" />
+            <p id="price"></p>
+            <p id="compare-at-price"></p>
+            <hr id="horizontal-line" />
+            <small>Choose a Color</small>
+            <div id="colors-container"></div>
+            <hr id="horizontal-line" />
+            <small>Choose a Size</small>
+            <div id="choose-a-size"></div>
+            <div class="addcart-container">
+                <div class="increment-container">
+                    <b id="decrement">-</b>
+                    <b id="value">1</b>
+                    <b id="increment">+</b>
+                </div>
+                <button id="addtocart">Add to Cart</button>
+            </div>
+            <p id="cart-item-message"></p>
+            <hr id="horizontal-line" />
+            <p id="description"></p>
+        </div>
+    </div>
+</body>
+
+</html>
